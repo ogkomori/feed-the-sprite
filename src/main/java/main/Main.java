@@ -8,7 +8,7 @@ public class Main {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("Sticks");
+        window.setTitle("Feed The Sprite");
 
         // Add the game panel
         GamePanel gamePanel = new GamePanel();
