@@ -4,7 +4,6 @@ import object.Snack;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
-import java.io.File;
 import java.util.*;
 import java.util.List;
 
@@ -20,11 +19,16 @@ public class SnackManager {
 
     // Load snack images
     void setObjects() {
-        File directory = new File("src\\main\\resources\\img\\snack");
-        File[] images = directory.listFiles();
-        for (int i = 0; i < gp.snacks.length; i++) {
-            gp.snacks[i] = new Snack("/img/snack/" + Objects.requireNonNull(images)[i].getName());
-        }
+        gp.snacks[0] = new Snack("/img/snack/Burger.png");
+        gp.snacks[1] = new Snack("/img/snack/Cake.png");
+        gp.snacks[2] = new Snack("/img/snack/Candy.png");
+        gp.snacks[3] = new Snack("/img/snack/Cookie.png");
+        gp.snacks[4] = new Snack("/img/snack/Donut.png");
+        gp.snacks[5] = new Snack("/img/snack/Drink.png");
+        gp.snacks[6] = new Snack("/img/snack/Fries.png");
+        gp.snacks[7] = new Snack("/img/snack/IceCream.png");
+        gp.snacks[8] = new Snack("/img/snack/Lolly.png");
+        gp.snacks[9] = new Snack("/img/snack/Pizza.png");
         rowNums = new int[10];
         colNums = new int[10];
     }
