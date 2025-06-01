@@ -6,12 +6,6 @@ I implemented the UI components using Java Swing and AWT.
 This project showcases custom sprite animations, sound effects, and simple gameplay mechanics built entirely with Java.
 All images and music in this game were designed and created by me.
 
-## Download
-The game can be downloaded here (for Windows):
-- [Feed-the-Sprite.zip](dist/Feed-the-Sprite.zip)
-
-Just unzip and run `FeedTheSprite.exe`.
-
 ## Screenshots
 
 <table>
